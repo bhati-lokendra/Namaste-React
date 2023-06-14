@@ -1,3 +1,56 @@
-#parent {
-color: red;
+.header {
+  border-style: solid;
+  border-color: rgb(233, 9, 110);
+  height: 50px;
+  background-color: antiquewhite;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  width: 80px;
+  height: 70px;
+}
+
+.rev-items > ul {
+  list-style: none;
+  display: flex;
+}
+.rev-items > ul > li {
+  margin: 1cm;
+}
+
+.body-search {
+  margin-top: 20px;
+  margin-left: 200px;
+}
+.input-search {
+  margin-right: 200;
+  border-style: solid;
+}
+
+.res-container {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.res-card {
+  margin: 5px;
+  padding: 5px;
+ 
+  height: 400px;
+  width: 200px;
+  background-color: rgb(250, 246, 201);
+}
+.res-card :hover {
+
+  cursor: pointer;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.res-image {
+  width: 100%;
+  border-style: inset;
 }
